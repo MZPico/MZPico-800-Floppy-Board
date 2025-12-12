@@ -1,0 +1,6 @@
+[submodule "libraries/footprints"]
+	path = libraries/footprints
+	url = https://github.com/MZPico/kicad-footprints
+[submodule "libraries/symbols"]
+	path = libraries/symbols
+	url = https://github.com/MZPico/kicad-symbols
