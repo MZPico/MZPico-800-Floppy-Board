@@ -3747,6 +3747,10 @@
 		(uuid "1a475760-24f2-408f-844a-454d752a5d13")
 	)
 	(no_connect
+		(at 229.87 87.63)
+		(uuid "2452b0f4-2155-439c-90bc-7b900e6971fc")
+	)
+	(no_connect
 		(at 222.25 111.76)
 		(uuid "2e6330d3-3ec3-4680-8c4a-34e946790293")
 	)
@@ -3763,8 +3767,16 @@
 		(uuid "5c8f859e-decf-4c44-a986-dda55d756e9a")
 	)
 	(no_connect
+		(at 227.33 87.63)
+		(uuid "5f410dd6-6165-46fa-b92a-3099736cca18")
+	)
+	(no_connect
 		(at 246.38 34.29)
 		(uuid "5f6756fe-ea5c-4fe2-b3ba-3d3e50e7a785")
+	)
+	(no_connect
+		(at 224.79 87.63)
+		(uuid "6b74600b-e825-4589-be93-7b8cb059c8e1")
 	)
 	(no_connect
 		(at 49.53 62.23)
@@ -6276,6 +6288,16 @@
 		)
 		(uuid "3370267f-3950-4f51-ab8f-814bd8ae3a2b")
 	)
+	(label "VCC"
+		(at 95.25 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33b449b9-97e5-4835-b9bc-9e11e604c470")
+	)
 	(label "D6"
 		(at 60.96 36.83 0)
 		(effects
@@ -6405,16 +6427,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e2b53cc-0842-4db4-99d1-42e281f0a2ed")
-	)
-	(label "VCC"
-		(at 95.25 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f0840a6-cd33-44d5-b5e3-9f53e60b96c0")
 	)
 	(label "5V"
 		(at 252.73 36.83 0)
