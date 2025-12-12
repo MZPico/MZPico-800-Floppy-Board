@@ -1,0 +1,18 @@
+name: Create release on version tag
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_run:
+    workflows: ["Trigger a release"]
+    types:
+      - completed
+
+jobs:
+  create_github_release:
+    uses: MZPico/github-actions/.github/workflows/tag_kicad_project_release.yml@main
+    permissions:
+      contents: write
+      actions: read
+    with:
+      project_name: MZPico-800-Floppy-Board

@@ -1,0 +1,17 @@
+name: Trigger a release
+
+on:
+  workflow_dispatch:
+    inputs:
+      semver:
+        description: 'Semantic version (must be in format vX.Y.Z, e.g. v1.2.3)'
+        required: true
+        type: string
+
+jobs:
+  set-version:
+    uses: MZPico/github-actions/.github/workflows/trigger_kicad_project_release.yml@main
+    permissions:
+      contents: write
+    with:
+      semver: ${{ inputs.semver }}

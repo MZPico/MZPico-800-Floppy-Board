@@ -1,0 +1,11 @@
+name: KiCad checks
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  verify_kicad:
+    uses: MZPico/github-actions/.github/workflows/kicad_checks.yml@main
+    with:
+      project_name: MZPico-800-Floppy-Board

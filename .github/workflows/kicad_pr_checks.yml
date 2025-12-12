@@ -1,0 +1,15 @@
+name: KiCad checks
+on:
+  pull_request:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**.kicad_pro'
+      - '**.kicad_sym'
+      - '**.kicad_mod'
+
+jobs:
+  verify_kicad:
+    uses: MZPico/github-actions/.github/workflows/kicad_checks.yml@main
+    with:
+      project_name: MZPico-800-Floppy-Board
